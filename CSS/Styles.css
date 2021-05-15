@@ -1,0 +1,213 @@
+/***********TAG SELECTOR*************/
+
+div{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    background-color: black;
+}
+
+p{
+    line-height: 2;
+}
+
+body{
+    color: white;
+    margin:0;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size:  20px;
+    background-color: red;
+    
+}
+
+h1{
+    margin-top:0px;
+    padding-top: 100px;
+    margin-bottom: 0;
+    font-family: 'Allura', cursive;
+    font-size: 100px;
+    color: white;
+    
+}
+
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(151, 226, 226)
+}
+
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+hr{
+    
+    border-style: none none dotted none;
+    width: 10%;
+    border-width: 7px;
+
+}
+
+
+.skill-row{
+    width:50%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+    padding: 0;
+}
+
+/************CLASS SELECTORS************/
+
+.Intro{
+    width: 30%;
+    margin: 30px auto 30px auto
+}
+
+.blessings{
+    width: 30%;
+    margin: 70px auto 70px auto
+}
+
+.Introduction{
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.TopContainer{
+    
+    padding-top: 75px;
+    padding-bottom: 0;
+    background-color: black;
+    position: relative;
+
+}
+.middle-container{
+    padding-top: 100px;    
+}
+.bottom-container{
+    margin: 0;
+    background-color: white;
+    padding-bottom: 0px;
+}
+
+.BottomCloud{
+    position:absolute;
+    top:400px;
+    left: 150px;
+}
+
+.TopCloud{
+    position:absolute;
+    right: 100px;
+    
+    margin-top: 0;
+
+}
+
+.GoForHead{
+    width: 25%;
+    border-radius: 100%;
+    margin: 0;
+    float: left;
+    margin-right: 30px;
+}
+
+.Stormbreaker{
+    width: 25%;
+    border-radius: 100%;
+    margin: 0;
+    float: right;
+    margin-left: 30px;
+
+}
+
+
+.profile{
+    padding-top: 50px;
+}
+
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #000000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 26px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 0 0 #FFFFFF;
+    -moz-box-shadow: 1px 1px 0 0 #FFFFFF;
+    box-shadow: 1px 1px 0 0 #FFFFFF;
+    text-shadow: 1px 1px 20px #FFFFFF;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #000000 1px;
+    background: #B3BFD3;
+    background-image: -webkit-linear-gradient(top, #B3BFD3, #B3BAC5);
+    background-image: -moz-linear-gradient(top, #B3BFD3, #B3BAC5);
+    background-image: -ms-linear-gradient(top, #B3BFD3, #B3BAC5);
+    background-image: -o-linear-gradient(top, #B3BFD3, #B3BAC5);
+    background-image: -webkit-gradient(to bottom, #B3BFD3, #B3BAC5);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.footer-link{
+    color: black;
+    font-weight:bold;
+    margin: 10px 25px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: rgb(71, 66, 66);
+}
+
+.sign-off{
+    padding-top: 10px;
+    color: black;
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+
+
+.God{
+
+    text-decoration: underline;
+    
+}
+
+
+.Asgard{
+    width:50%;
+}
+
+/***********ID Selectors************/
+#my-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
